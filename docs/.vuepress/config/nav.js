@@ -4,15 +4,17 @@ module.exports = [
     link: '/web/',  //目录页，vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
     items: [
       {
-        text: '前端文章', items: [
+        text: '前端技术', items: [
           { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
           { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
           { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' }, // 注意link结尾有斜杠和没有斜杠的区别
+          { text: 'TypeScript', link: '/pages/8143cc480faf9a11/' },
           { text: 'Vue', link: '/pages/802a1ca6f7b71c59/' },
+          { text: 'React', link: '/pages/802a1ca6f7b71239/' },
         ]
       },
       {
-        text: '学习笔记', items: [
+        text: '转载', items: [
           { text: '《JavaScript教程》笔记', link: '/note/javascript/' },
           { text: '《JavaScript高级程序设计》笔记', link: '/note/js/' },
           { text: '《ES6 教程》笔记', link: '/note/es6/' },

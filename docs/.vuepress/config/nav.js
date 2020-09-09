@@ -7,8 +7,8 @@ module.exports = [
         text: '前端技术', items: [
           { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
           { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
-          { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' }, // 注意link结尾有斜杠和没有斜杠的区别
-          { text: 'TypeScript', link: '/pages/8143cc480faf9a11/' },
+          { text: 'JavaScript', link: '/pages/fe5adf/' }, // 注意link结尾有斜杠和没有斜杠的区别
+          { text: 'TypeScript', link: '/pages/a12c1c/' },
           { text: 'Vue', link: '/pages/802a1ca6f7b71c59/' },
           { text: 'React', link: '/pages/802a1ca6f7b71239/' },
         ]
@@ -33,9 +33,10 @@ module.exports = [
       { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
       { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
       { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
+      { text: '网络相关', link: '/pages/128f6f/' },
+      { text: '其他', link: '/pages/e9a68e/' },
     ]
   },
-  { text: '关于', link: '/about/' },
   {
     text: '收藏',
     link: '/pages/beb6c0bd8a66cea6/',
@@ -45,6 +46,7 @@ module.exports = [
       { text: 'Vue资源', link: '/pages/12df8ace52d493f6/' },
     ]
   },
+  { text: '关于', link: '/about/' },
   {
     text: '索引',
     link: '/archives/',

@@ -106,11 +106,13 @@ module.exports = {
       name: 'ShunJun', // 必需
       link: 'https://github.com/Shunjun' // 可选的
     },
+
     blogger: { // 博主信息，显示在首页侧边栏
-      avatar: 'https://avatars2.githubusercontent.com/u/10445938?s=460&u=7e2662dc1837e6322b254523611fe7ab5f3d4834&v=4',
+      avatar: '/img/10445938.png',
       name: 'ShunJun',
       slogan: ''
     },
+
     social: { // 社交图标，显示于博主信息栏和页脚栏
       // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
       icons: [

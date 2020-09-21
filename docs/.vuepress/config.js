@@ -64,24 +64,24 @@ module.exports = {
     [require('../../plugin/vuepress-plugin-metingPlayer/index.js'), {
       meting: {
         server: 'netease',
-        type: 'song',
-        mid: '472045266'
+        type: 'playlist',
+        mid: '5244874819'
       },
       aplayer: {
-        autoplay: true,
+        autoplay: false,
         fixed: true,
         mini: true,
         volume: 0.2,
       },
       // mobile: {}
-    }]
+    }],
   ],
 
   theme: 'vdoing',
 
   themeConfig: {
     nav,
-    sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
+    sidebarDepth: 1, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/PageStranding.svg', // 导航栏logo
     repo: 'Shunjun', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数

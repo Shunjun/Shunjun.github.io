@@ -129,7 +129,7 @@ module.exports = {
     blogger: { // 博主信息，显示在首页侧边栏
       avatar: '/img/10445938.png',
       name: 'ShunJun',
-      slogan: ''
+      slogan: 'Rebirth and destruction'
     },
 
     social: { // 社交图标，显示于博主信息栏和页脚栏

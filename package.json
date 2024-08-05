@@ -7,9 +7,6 @@
     "dev": "",
     "build": ""
   },
-  "devDependencies": {
-    "typescript": "^5.5.4"
-  },
   "description": "",
   "directories": {
     "doc": "docs"
@@ -21,5 +18,12 @@
   "keywords": [],
   "author": "",
   "homepage": "https://github.com/Shunjun/Shunjun.github.io#readme",
-  "packageManager": "pnpm@9.6.0+sha256.dae0f7e822c56b20979bb5965e3b73b8bdabb6b8b8ef121da6d857508599ca35"
+  "packageManager": "pnpm@9.6.0+sha256.dae0f7e822c56b20979bb5965e3b73b8bdabb6b8b8ef121da6d857508599ca35",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
 }

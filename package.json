@@ -1,29 +1,35 @@
 {
-  "name": "shunjun-blog",
+  "name": "just-crash-blog",
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "",
-    "build": ""
+    "dev": "next dev",
+    "build": "next build"
   },
   "description": "",
-  "directories": {
-    "doc": "docs"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Shunjun/Shunjun.github.io.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "just-crash"
+  ],
+  "author": "Shunzi <tobyzsj@gmail.com>",
   "homepage": "https://github.com/Shunjun/Shunjun.github.io#readme",
   "packageManager": "pnpm@9.6.0+sha256.dae0f7e822c56b20979bb5965e3b73b8bdabb6b8b8ef121da6d857508599ca35",
   "dependencies": {
+    "next": "^14.2.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "typescript": "^5.5.4"
+    "@types/node": "22.1.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "contentlayer2": "^0.5.0",
+    "next-contentlayer2": "^0.5.0",
+    "typescript": "^5.5.4",
+    "unplugin-icons": "^0.19.1"
   }
 }

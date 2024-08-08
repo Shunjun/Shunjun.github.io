@@ -5,9 +5,10 @@
     "lib": ["DOM", "ESNext"],
     "baseUrl": ".",
     "module": "ESNext",
-    "moduleResolution": "Bundler",
+    "moduleResolution": "Node",
     "paths": {
-      "~/*": ["src/*"]
+      "~/*": ["src/*"],
+      "contentlayer/generated": ["./.contentlayer/generated"]
     },
     "resolveJsonModule": true,
     "strict": true,
@@ -19,14 +20,14 @@
     "incremental": true,
     "plugins": [
       {
-        "name": "next",
-        "contentlayer/generated": ["./.contentlayer/generated"]
+        "name": "next"
       }
     ],
     "allowJs": true
   },
   "exclude": ["dist", "node_modules"],
   "include": [
+    "src",
     "next-env.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",

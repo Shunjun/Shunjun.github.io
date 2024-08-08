@@ -135,4 +135,5 @@ next-env.d.ts
 .contentlayer
 
 # husky
-.husky
+.husky/_ 
+.husky/*.log 

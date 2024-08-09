@@ -20,6 +20,8 @@
   "homepage": "https://github.com/Shunjun/Shunjun.github.io#readme",
   "packageManager": "pnpm@9.6.0+sha256.dae0f7e822c56b20979bb5965e3b73b8bdabb6b8b8ef121da6d857508599ca35",
   "dependencies": {
+    "@commitlint/cli": "^19.4.0",
+    "@commitlint/config-conventional": "^19.2.2",
     "github-slugger": "^2.0.0",
     "next": "^14.2.5",
     "pliny": "^0.2.2",
@@ -51,7 +53,11 @@
     "unplugin-icons": "^0.19.1"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix",
-    "*.{js,css,md}": "prettier --write"
+    "*.js": "eslint --cache --fix"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   }
 }

@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./constant.css";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  padding: var(--edge-size);
+  color: var(--color);
+  background-color: var(--color-bg);
+}
+
+@layer components {
+  .w-navbar {
+    width: calc(var(--navbar-width) - var(--gap-size));
+  }
+  .ml-navbar {
+    margin-left: var(--navbar-width);
+  }
+  .p-content {
+    @apply px-4;
+  }
+  .bg-bg {
+    background-color: var(--color-bg);
+  }
+  .bg-content {
+    background-color: var(--color-secondary);
+  }
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+  .min-h-content {
+    min-height: calc(100vh - (2 * var(--edge-size)));
+  }
+
+  .text-secondary {
+    color: var(--color-secondary);
+  }
+}
+
+.logo {
+  @apply w-full h-[60px] bg-primary;
+}
+
+.navbar {
+  @apply w-navbar fixed min-h-content;
+}

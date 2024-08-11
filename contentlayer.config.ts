@@ -54,7 +54,7 @@ function createTagCount(allBlogs: BlogType[]) {
       });
     }
   });
-  writeFileSync("~/tag-data.json", JSON.stringify(tagCount));
+  writeFileSync("./src/tag-data.json", JSON.stringify(tagCount));
 }
 
 function createSearchIndex(allBlogs: BlogType[]) {
